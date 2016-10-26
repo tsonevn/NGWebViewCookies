@@ -1,0 +1,5 @@
+<GridLayout rows="70 *" columns="*">
+    <Button row="0" text="TAP" (tap)="onTap()"></Button>
+    <WebView row="1" (loaded)="onviewloaded($event)" src="https://httpbin.org/cookies/set?name=testname&username=testusername"></WebView>
+       
+</GridLayout>
